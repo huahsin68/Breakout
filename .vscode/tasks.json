@@ -1,0 +1,37 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ build active file",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/src/*.cpp",
+                "-I/home/kokhoe/tool/box2d-2.4.1/include",
+                "-I/home/kokhoe/tool/irrKlang-64bit-1.6.0/include",
+                "-I/home/kokhoe/tool/glm-0.9.9.6",
+                "-I${workspaceFolder}/hdr",
+                "-L/home/kokhoe/tool/box2d-2.4.1/bin",
+                "-lGLEW",
+                "-lGL",
+                "-lglut",
+                "-lbox2d",
+                "-o",
+                "/home/kokhoe/workspacec/Breakout/Debug/breakout"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Breakout Task."
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/hdr",
+                "${workspaceFolder}/src",
+                "/home/kokhoe/tool/box2d-2.4.1/include",
+                "/home/kokhoe/tool/irrKlang-64bit-1.6.0/include",
+                "/home/kokhoe/tool/glm-0.9.9.6"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/hdr",
+                    "/home/kokhoe/tool/box2d-2.4.1/include",
+                    "/home/kokhoe/tool/irrKlang-64bit-1.6.0/include",
+                    "/home/kokhoe/tool/glm-0.9.9.6"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
